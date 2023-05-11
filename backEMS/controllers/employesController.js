@@ -4,7 +4,7 @@ let employes = []
 
 const getAllEmployes = (req, res) => {
   res.status(200).json(employes)
-};
+}
 const addEmployes = (req, res) => {
   const employe = req.body
 
