@@ -9,7 +9,7 @@ const addEmployes = (req, res) => {
   const employe = req.body
 
   employe.id = uuidv4()
-  employe.push(employe)
+  employes.push(employe)
   res.status(200).json(employe)
 }
 
